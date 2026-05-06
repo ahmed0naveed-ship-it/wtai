@@ -15,6 +15,7 @@ import SettingsPanel from "./components/SettingsPanel";
 const STORAGE_KEY = "wtai_chats_revamp_v2";
 const THEME_KEY = "wtai_theme_v1";
 const SETTINGS_KEY = "wtai_settings_v1";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
 
 const DEFAULT_SETTINGS = {
   defaultMode: "general",
