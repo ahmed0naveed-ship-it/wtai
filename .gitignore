@@ -13,5 +13,9 @@ frontend/node_modules/
 frontend/.next/
 frontend/out/
 
+# installers/random
+*.msix
+*.exe
+
 # misc
 .DS_Store
