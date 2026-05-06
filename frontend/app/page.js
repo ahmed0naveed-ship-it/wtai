@@ -763,7 +763,7 @@ formData.append(
   abortRef.current = controller;
 
   try {
-    const res = await fetch("http://127.0.0.1:8000/stream", {
+    const res = await fetch(`${API_URL}/stream`, {
       method: "POST",
       body: formData,
       signal: controller.signal,

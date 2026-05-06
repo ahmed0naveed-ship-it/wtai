@@ -40,7 +40,7 @@ export default function SettingsPanel({
     }));
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/status", {
+      const res = await fetch(`${API_URL}/status`, {
         method: "GET",
       });
 
